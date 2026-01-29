@@ -817,21 +817,22 @@ function Group68() {
 
 function Group9() {
   return (
-    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid items-[start] justify-items-[start] ml-[14.51%] mt-[37.5%] relative row-1">
-      <div className="bg-[#e3fbff] col-1 h-[19.791px] ml-0 mt-0 rounded-[4px] row-1 w-[61px]" />
-      <p className="col-1 css-4hzbpn font-['DM_Sans:Medium',sans-serif] font-medium h-[12.251px] leading-[normal] ml-[22px] mt-[3.77px] relative row-1 text-[#18b7e7] text-[10px] tracking-[0.3px] w-[31px]" style={{ fontVariationSettings: "'opsz' 14" }}>
-        10,5 %
-      </p>
-      <div className="col-1 flex h-[6.432px] items-center justify-center ml-[8px] mt-[6.6px] relative row-1 w-[5.866px]">
-        <div className="flex-none h-px rotate-[-47.63deg] skew-x-[3.36deg] w-[8.706px]">
-          <div className="relative size-full">
-            <div className="absolute inset-[-3.68px_-5.74%_-3.68px_0]">
-              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9.20571 7.36396">
-                <path d={svgPaths.p32812980} fill="var(--stroke-0, #00B8D9)" id="Arrow 2" />
-              </svg>
+    <div className="col-1 absolute left-[28px] top-[85px] flex items-center gap-[4px]">
+      <div className="bg-[#e3fbff] h-[19.791px] rounded-[4px] px-[8px] flex items-center gap-[4px]">
+        <div className="flex h-[6.432px] items-center justify-center w-[5.866px]">
+          <div className="flex-none h-px rotate-[-47.63deg] skew-x-[3.36deg] w-[8.706px]">
+            <div className="relative size-full">
+              <div className="absolute inset-[-3.68px_-5.74%_-3.68px_0]">
+                <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9.20571 7.36396">
+                  <path d={svgPaths.p32812980} fill="var(--stroke-0, #00B8D9)" id="Arrow 2" />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
+        <p className="css-4hzbpn font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] text-[#18b7e7] text-[10px] tracking-[0.3px]" style={{ fontVariationSettings: "'opsz' 14" }}>
+          10,5 %
+        </p>
       </div>
     </div>
   );
@@ -906,12 +907,13 @@ function Graph() {
 
 function Graph1() {
   return (
-    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid items-[start] justify-items-[start] ml-0 mt-0 relative row-1" data-name="graph-1">
-      <div className="bg-white col-1 h-[226.18px] ml-0 mt-0 rounded-[8px] row-1 w-[193px]" />
-      <p className="col-1 css-4hzbpn font-['Inter:Bold',sans-serif] font-bold h-[30.157px] leading-[32px] ml-[28px] mt-[26.39px] not-italic relative row-1 text-[#005490] text-[20px] tracking-[0.3px] w-[82px]">20 Days</p>
-      <p className="col-1 css-4hzbpn font-['Inter:Regular',sans-serif] font-normal h-[14.136px] leading-[normal] ml-[28px] mt-[58.43px] not-italic relative row-1 text-[#a9bcc9] text-[12px] tracking-[0.3px] w-[123px]">Average likes gained</p>
+    <div className="col-1 relative ml-0 mt-0 row-1" data-name="graph-1">
+      <div className="bg-white h-[226.18px] rounded-[8px] w-[193px]" />
+      <div className="absolute left-[28px] top-[26px] flex flex-col gap-[4px]">
+        <p className="css-4hzbpn font-['Inter:Bold',sans-serif] font-bold leading-[32px] not-italic text-[#005490] text-[20px] tracking-[0.3px]">20 Days</p>
+        <p className="css-4hzbpn font-['Inter:Regular',sans-serif] font-normal leading-[14px] not-italic text-[#a9bcc9] text-[12px] tracking-[0.3px]">Average likes gained</p>
+      </div>
       <Group9 />
-      <Graph />
     </div>
   );
 }
@@ -4462,7 +4464,7 @@ function Frame27() {
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-[238px]">
       <Container57 />
-      <p className="css-4hzbpn font-['Poppins:Regular',sans-serif] leading-[32.6px] min-w-full not-italic relative shrink-0 text-[#f4f4f5] text-[20.4px] tracking-[-0.1504px] w-[min-content]">Clarity on issues, commitments, and follow ups â€” across channels.</p>
+      <p className="css-4hzbpn font-['Poppins:Regular',sans-serif] leading-[32.6px] min-w-full not-italic relative shrink-0 text-[#f4f4f5] text-[20.4px] tracking-[-0.1504px] w-[min-content]">Clarity on issues, commitments, and follow ups across channels.</p>
     </div>
   );
 }
@@ -4545,7 +4547,7 @@ function Frame29() {
 
 function Frame31() {
   return (
-    <div className="col-1 content-stretch flex gap-[72px] items-center mt-[180px] relative row-2">
+    <div className="col-1 content-stretch flex gap-[120px] items-center mt-[180px] relative row-2">
       <Frame30 />
       <Frame29 />
     </div>
@@ -4579,7 +4581,7 @@ function Group94() {
           </div>
         </div>
       </div>
-      <div className="col-1 flex h-[0.289px] items-center justify-center ml-[225px] mt-[215px] relative row-2 w-[186.024px]" style={{ "--transform-inner-width": "300", "--transform-inner-height": "150" } as React.CSSProperties}>
+      <div className="col-1 flex h-[0.289px] items-center justify-center ml-[100px] mt-[215px] relative row-2 w-[190.024px]" style={{ "--transform-inner-width": "300", "--transform-inner-height": "150" } as React.CSSProperties}>
         <div className="-scale-y-100 flex-none rotate-[179.91deg]">
           <div className="h-0 relative w-[186.024px]">
             <div className="absolute inset-[-5.52px_-0.4%_-5.52px_0]">
@@ -4590,7 +4592,7 @@ function Group94() {
           </div>
         </div>
       </div>
-      <div className="col-1 h-[244px] ml-[535px] mt-[91px] relative row-2 w-[335px]">
+      <div className="col-1 h-[370px] ml-[520px] mt-[-160px] relative row-2 w-[335px]">
         <div className="absolute inset-[-1.51%_-0.15%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 336 251.364">
             <path d={svgPaths.p3442bd00} fill="var(--stroke-0, white)" id="Vector 26" />
@@ -4609,40 +4611,6 @@ function Frame77() {
         <span className="leading-[48px] text-[#070563]">Help</span>
       </p>
       <Group94 />
-    </div>
-  );
-}
-
-function MynauiPin5() {
-  return <div className="-translate-y-1/2 absolute left-[121px] size-[48px] top-[calc(50%+12px)]" data-name="mynaui:pin" />;
-}
-
-function Frame41() {
-  return (
-    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center left-[calc(50%+0.5px)] top-[51px]">
-      <div className="relative shrink-0 size-[24px]" data-name="Vector">
-        <div className="absolute inset-[-3.13%_-3.13%_-3.12%_-3.13%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.501 25.501">
-            <path d={svgPaths.p1cfcc180} id="Vector" stroke="url(#paint0_linear_4_1427)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-            <defs>
-              <linearGradient gradientUnits="userSpaceOnUse" id="paint0_linear_4_1427" x1="12.75" x2="12.75" y1="0.751018" y2="24.751">
-                <stop stopColor="#155DFC" />
-                <stop offset="1" stopColor="#5C059A" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-      </div>
-      <p className="capitalize css-ew64yg font-['Poppins:SemiBold',sans-serif] leading-[32px] not-italic relative shrink-0 text-[24px] text-center text-white tracking-[0.0703px]">{`improves \`performance  without creating a toxic culture.`}</p>
-    </div>
-  );
-}
-
-function Container61() {
-  return (
-    <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[114px] left-1/2 top-[calc(50%+3011px)] w-[1071px]" data-name="Container" style={{ backgroundImage: "linear-gradient(173.924deg, rgba(60, 3, 102, 0.2) 0%, rgba(15, 23, 43, 0.2) 50%, rgba(22, 36, 86, 0.2) 100%)" }}>
-      <MynauiPin5 />
-      <Frame41 />
     </div>
   );
 }
@@ -4853,9 +4821,8 @@ function Frame40() {
 function Group97() {
   return (
     <div className="-translate-x-1/2 absolute contents left-1/2 top-[7850px]">
-      <Container61 />
       <Frame40 />
-      <div className="-translate-x-1/2 absolute css-g0mm18 font-['Poppins:SemiBold',sans-serif] leading-[60px] left-[calc(50%+0.5px)] not-italic text-[48px] text-center text-white top-[7850px] tracking-[0.3516px]">
+      <div className="-translate-x-1/2 absolute css-g0mm18 font-['Poppins:SemiBold',sans-serif] leading-[60px] left-[calc(50%+0.5px)] not-italic text-[48px] text-center text-[#070563] top-[7850px] tracking-[0.3516px]">
         <p className="css-ew64yg mb-0">{`Not surveillance. `}</p>
         <p className="css-ew64yg">Not micromanagement.</p>
       </div>
@@ -4866,8 +4833,8 @@ function Group97() {
 function Frame49() {
   return (
     <div className="content-stretch flex flex-col gap-[10.881px] items-start not-italic relative shrink-0 w-[454.81px]">
-      <div className="flex flex-col font-['Poppins:SemiBold',sans-serif] h-[126.215px] justify-center leading-[0] relative shrink-0 text-[52.227px] text-white tracking-[0.3825px] w-full">
-        <p className="css-4hzbpn leading-[65.284px]">Why this matters now</p>
+      <div className="flex flex-col font-['Poppins:SemiBold',sans-serif] h-[126.215px] justify-center leading-[0] relative shrink-0 text-[52.227px] tracking-[0.3825px] w-full">
+        <p className="css-4hzbpn leading-[65.284px] text-[#070563]">Why this matters now</p>
       </div>
       <p className="css-4hzbpn font-['Poppins:Regular',sans-serif] leading-[34.818px] relative shrink-0 text-[#f4f4f5] text-[26.114px] tracking-[0.0765px] w-full">Improvement has to happen closer to the moment of action.</p>
     </div>
@@ -5108,7 +5075,7 @@ function Frame50() {
 
 function Frame78() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex items-start left-[calc(25%+67.91px)] top-[8687px]">
+    <div className="-translate-x-1/2 absolute content-stretch flex items-start left-[calc(25%+67.91px)] top-[8787px]">
       <Frame50 />
     </div>
   );
@@ -5228,15 +5195,15 @@ function Frame56() {
 
 function Container62() {
   return (
-    <div className="bg-gradient-to-r from-[#155dfc] h-[58px] relative rounded-[14px] shadow-[0px_25px_50px_0px_rgba(43,127,255,0.3)] shrink-0 to-[#9810fa] w-[289px]" data-name="Container">
-      <p className="-translate-x-1/2 absolute css-ew64yg font-['Poppins:Regular',sans-serif] leading-[32px] left-1/2 not-italic text-[16px] text-center text-white top-[calc(50%-16px)] tracking-[0.0703px]">Start small. Expand naturally.</p>
+    <div className="bg-gradient-to-r from-[#155dfc] h-[58px] relative rounded-[14px] shadow-[0px_25px_50px_0px_rgba(43,127,255,0.3)] shrink-0 to-[#9810fa] w-[400px]" data-name="Container">
+      <p className="-translate-x-1/2 absolute css-ew64yg font-['Poppins:Regular',sans-serif] leading-[32px] left-1/2 not-italic text-[16px] text-center text-white top-[calc(50%-16px)] tracking-[0.0703px] whitespace-nowrap">Start small. Expand naturally.</p>
     </div>
   );
 }
 
 function Frame79() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[40px] items-center left-[25px] top-[9328px] w-[1022.992px]">
+    <div className="absolute content-stretch flex flex-col gap-[40px] items-center left-[25px] top-[9428px] w-[1022.992px]">
       <Frame57 />
       <Frame56 />
       <Container62 />
@@ -5247,7 +5214,7 @@ function Frame79() {
 function Heading11() {
   return (
     <div className="h-[60px] relative shrink-0 w-full" data-name="Heading 2">
-      <p className="-translate-x-1/2 absolute css-ew64yg font-['Poppins:SemiBold',sans-serif] leading-[60px] left-[511.52px] not-italic text-[48px] text-center text-white top-[0.5px] tracking-[0.3516px]">Your first week with Tasknova</p>
+      <p className="-translate-x-1/2 absolute css-ew64yg font-['Poppins:SemiBold',sans-serif] leading-[60px] left-[511.52px] not-italic text-[48px] text-center text-[#070563] top-[0.5px] tracking-[0.3516px]">Your first week with Tasknova</p>
     </div>
   );
 }
@@ -5396,7 +5363,7 @@ function Container69() {
 
 function Frame80() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[64px] items-start left-1/2 top-[9932px] w-[1023px]">
+    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[64px] items-start left-1/2 top-[10032px] w-[1023px]">
       <Heading11 />
       <Container69 />
     </div>
@@ -5506,7 +5473,7 @@ function Heading15() {
 
 function Button1() {
   return (
-    <div className="absolute content-stretch flex h-[60px] items-center justify-center left-[292.03px] px-[42px] py-[30px] rounded-[8px] top-[92px] w-[311.93px]" data-name="Button">
+    <div className="absolute content-stretch flex h-[60px] items-center justify-center left-[292.03px] px-[42px] py-[30px] rounded-[8px] top-[150px] w-[311.93px]" data-name="Button">
       <div aria-hidden="true" className="absolute border-2 border-[#070563] border-solid inset-0 pointer-events-none rounded-[8px]" />
       <p className="css-ew64yg font-['Poppins:SemiBold',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#070563] text-[16px] text-center tracking-[-0.3125px]">Book a 15 minute walkthrough</p>
     </div>
@@ -6016,7 +5983,7 @@ function Footer() {
 
 function Frame85() {
   return (
-    <div className="absolute content-stretch flex flex-col items-start left-0 top-[10336px] w-[1071px]">
+    <div className="absolute content-stretch flex flex-col items-start left-0 top-[10536px] w-[1071px]">
       <Frame69 />
       <Footer />
     </div>
@@ -6152,7 +6119,7 @@ function ImageTeamCollaboration() {
 
 export default function Frame71() {
   return (
-    <div className="relative w-full min-h-screen overflow-x-hidden" style={{ backgroundImage: "linear-gradient(268.307deg, rgb(47, 213, 191) 2.2671%, rgb(1, 102, 250) 94.289%)" }}>
+    <div className="relative w-full min-h-screen overflow-x-hidden overflow-y-hidden" style={{ backgroundImage: "linear-gradient(268.307deg, rgb(47, 213, 191) 2.2671%, rgb(1, 102, 250) 94.289%)" }}>
       <div className="pt-[72px]"></div>
       
       {/* Full-width hero background image */}
