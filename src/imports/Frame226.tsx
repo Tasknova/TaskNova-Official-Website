@@ -4545,7 +4545,7 @@ function Frame29() {
 
 function Frame31() {
   return (
-    <div className="col-1 content-stretch flex gap-[72px] items-center mt-[120px] relative row-2">
+    <div className="col-1 content-stretch flex gap-[72px] items-center mt-[180px] relative row-2">
       <Frame30 />
       <Frame29 />
     </div>
@@ -4579,7 +4579,7 @@ function Group94() {
           </div>
         </div>
       </div>
-      <div className="col-1 flex h-[0.289px] items-center justify-center ml-[225px] mt-[155px] relative row-2 w-[186.024px]" style={{ "--transform-inner-width": "300", "--transform-inner-height": "150" } as React.CSSProperties}>
+      <div className="col-1 flex h-[0.289px] items-center justify-center ml-[225px] mt-[215px] relative row-2 w-[186.024px]" style={{ "--transform-inner-width": "300", "--transform-inner-height": "150" } as React.CSSProperties}>
         <div className="-scale-y-100 flex-none rotate-[179.91deg]">
           <div className="h-0 relative w-[186.024px]">
             <div className="absolute inset-[-5.52px_-0.4%_-5.52px_0]">
@@ -4590,7 +4590,7 @@ function Group94() {
           </div>
         </div>
       </div>
-      <div className="col-1 h-[244px] ml-[535px] mt-[31px] relative row-2 w-[335px]">
+      <div className="col-1 h-[244px] ml-[535px] mt-[91px] relative row-2 w-[335px]">
         <div className="absolute inset-[-1.51%_-0.15%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 336 251.364">
             <path d={svgPaths.p3442bd00} fill="var(--stroke-0, white)" id="Vector 26" />
@@ -4842,7 +4842,7 @@ function Frame39() {
 
 function Frame40() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[20px] items-center left-1/2 top-[7899px] w-[937px]">
+    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[20px] items-center left-1/2 top-[8031px] w-[937px]">
       <Frame38 />
       <Frame37 />
       <Frame39 />
@@ -4852,10 +4852,10 @@ function Frame40() {
 
 function Group97() {
   return (
-    <div className="-translate-x-1/2 absolute contents left-1/2 top-[7718px]">
+    <div className="-translate-x-1/2 absolute contents left-1/2 top-[7850px]">
       <Container61 />
       <Frame40 />
-      <div className="-translate-x-1/2 absolute css-g0mm18 font-['Poppins:SemiBold',sans-serif] leading-[60px] left-[calc(50%+0.5px)] not-italic text-[48px] text-center text-white top-[7718px] tracking-[0.3516px]">
+      <div className="-translate-x-1/2 absolute css-g0mm18 font-['Poppins:SemiBold',sans-serif] leading-[60px] left-[calc(50%+0.5px)] not-italic text-[48px] text-center text-white top-[7850px] tracking-[0.3516px]">
         <p className="css-ew64yg mb-0">{`Not surveillance. `}</p>
         <p className="css-ew64yg">Not micromanagement.</p>
       </div>
