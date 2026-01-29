@@ -1062,20 +1062,24 @@ function Frame73() {
 function Frame25() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex gap-[28px] items-center leading-[20px] left-1/2 not-italic text-[#070563] text-[14px] top-[calc(50%+0.5px)] tracking-[-0.1504px]">
-      <p className="css-ew64yg font-['Poppins:Medium',sans-serif] relative shrink-0">How It Works</p>
-      <p className="css-ew64yg font-['Poppins:Regular',sans-serif] relative shrink-0">{`Performance & Coaching`}</p>
-      <p className="css-ew64yg font-['Poppins:Regular',sans-serif] relative shrink-0">Platform</p>
-      <p className="css-ew64yg font-['Poppins:Regular',sans-serif] relative shrink-0">Use Cases</p>
-      <p className="css-ew64yg font-['Poppins:Regular',sans-serif] relative shrink-0">Book a Demo</p>
+      <a href="#how-it-works" className="css-ew64yg font-['Poppins:Medium',sans-serif] relative shrink-0 cursor-pointer hover:text-[#155dfc] transition-colors duration-200">How It Works</a>
+      <a href="#performance-coaching" className="css-ew64yg font-['Poppins:Regular',sans-serif] relative shrink-0 cursor-pointer hover:text-[#155dfc] transition-colors duration-200">{`Performance & Coaching`}</a>
+      <a href="#platform" className="css-ew64yg font-['Poppins:Regular',sans-serif] relative shrink-0 cursor-pointer hover:text-[#155dfc] transition-colors duration-200">Platform</a>
+      <a href="#use-cases" className="css-ew64yg font-['Poppins:Regular',sans-serif] relative shrink-0 cursor-pointer hover:text-[#155dfc] transition-colors duration-200">Use Cases</a>
+      <a href="#book-demo" className="css-ew64yg font-['Poppins:Regular',sans-serif] relative shrink-0 cursor-pointer hover:text-[#155dfc] transition-colors duration-200">Book a Demo</a>
     </div>
   );
 }
 
 function Button() {
   return (
-    <div className="absolute bg-gradient-to-r content-stretch flex from-[#155dfc] h-[36px] items-center justify-center left-[904px] px-[20px] py-[8px] rounded-[10px] shadow-[0px_10px_15px_0px_rgba(43,127,255,0.2),0px_4px_6px_0px_rgba(43,127,255,0.2)] to-[#2b7fff] top-[18px] w-[139px]" data-name="Button">
+    <button 
+      onClick={() => window.location.href = '#get-started'}
+      className="absolute bg-gradient-to-r content-stretch flex from-[#155dfc] h-[36px] items-center justify-center left-[904px] px-[20px] py-[8px] rounded-[10px] shadow-[0px_10px_15px_0px_rgba(43,127,255,0.2),0px_4px_6px_0px_rgba(43,127,255,0.2)] to-[#2b7fff] top-[18px] w-[139px] cursor-pointer hover:shadow-[0px_15px_20px_0px_rgba(43,127,255,0.3)] transition-all duration-200 hover:scale-105" 
+      data-name="Button"
+    >
       <p className="css-ew64yg font-['Poppins:Regular',sans-serif] leading-[20px] not-italic relative shrink-0 text-[14px] text-center text-white tracking-[-0.1504px]">Get Started</p>
-    </div>
+    </button>
   );
 }
 
@@ -1766,8 +1770,8 @@ function Text2() {
 
 function Heading3() {
   return (
-    <div className="h-[188px] relative shrink-0 w-full" data-name="Heading 2">
-      <p className="-translate-x-1/2 absolute css-4hzbpn font-['Poppins:SemiBold',sans-serif] leading-[60px] left-[384.44px] not-italic text-[48px] text-center text-white top-[0.5px] tracking-[0.3516px] w-[663px]">Tasknova is an interaction and coaching platform</p>
+    <div className="h-[188px] relative shrink-0 w-full flex justify-center" data-name="Heading 2">
+      <p className="absolute css-4hzbpn font-['Poppins:SemiBold',sans-serif] leading-[60px] not-italic text-[48px] text-center text-white top-[0.5px] tracking-[0.3516px] w-[663px]">Tasknova is an interaction and coaching platform</p>
       <Text2 />
     </div>
   );
@@ -1775,7 +1779,7 @@ function Heading3() {
 
 function Container15() {
   return (
-    <div className="content-stretch flex flex-col gap-[24px] h-[244.5px] items-start relative shrink-0 w-[768px]" data-name="Container">
+    <div className="content-stretch flex flex-col gap-[24px] h-[244.5px] items-center relative shrink-0 w-full max-w-[768px]" data-name="Container">
       <Heading3 />
       <p className="css-ew64yg font-['Poppins:Regular',sans-serif] leading-[32.5px] not-italic relative shrink-0 text-[#f4f4f5] text-[20px] text-center tracking-[-0.4492px]">Tasknova listens to customer interactions across calls, demos, emails, and chats.</p>
     </div>
@@ -2231,7 +2235,7 @@ function Group96() {
 
 function Frame75() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[80px] items-center left-[64px] top-[3100.12px] w-[940px]">
+    <div className="absolute content-stretch flex flex-col gap-[80px] items-center left-1/2 -translate-x-1/2 top-[3100.12px] w-full max-w-[940px] px-4">
       <Container15 />
       <Group96 />
     </div>
@@ -2703,7 +2707,7 @@ function Container34() {
 
 function Frame81() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[28px] items-start left-[64px] top-[4213px] w-[481.5px]">
+    <div className="absolute content-stretch flex flex-col gap-[28px] items-start left-[150px] top-[4213px] w-[481.5px]">
       <Heading4 />
       <p className="css-4hzbpn font-['Poppins:Regular',sans-serif] leading-[32.5px] not-italic relative shrink-0 text-[#cad5e2] text-[20px] tracking-[-0.4492px] w-[444px]">{`Tasknova doesn't just analyze what your team says.`}</p>
       <Container34 />
@@ -4157,7 +4161,7 @@ function Card14() {
 
 function Frame76() {
   return (
-    <div className="absolute content-stretch flex gap-[48px] items-start left-[64px] top-[5562px]">
+    <div className="absolute content-stretch flex gap-[100px] items-start left-[200px] top-[5562px]">
       <Container48 />
       <Card14 />
     </div>
@@ -5195,9 +5199,13 @@ function Frame56() {
 
 function Container62() {
   return (
-    <div className="bg-gradient-to-r from-[#155dfc] h-[58px] relative rounded-[14px] shadow-[0px_25px_50px_0px_rgba(43,127,255,0.3)] shrink-0 to-[#9810fa] w-[400px]" data-name="Container">
+    <button 
+      onClick={() => window.location.href = '#get-started'}
+      className="bg-gradient-to-r from-[#155dfc] h-[58px] relative rounded-[14px] shadow-[0px_25px_50px_0px_rgba(43,127,255,0.3)] shrink-0 to-[#9810fa] w-[400px] cursor-pointer hover:shadow-[0px_25px_60px_0px_rgba(43,127,255,0.5)] transition-all hover:scale-105 duration-200" 
+      data-name="Container"
+    >
       <p className="-translate-x-1/2 absolute css-ew64yg font-['Poppins:Regular',sans-serif] leading-[32px] left-1/2 not-italic text-[16px] text-center text-white top-[calc(50%-16px)] tracking-[0.0703px] whitespace-nowrap">Start small. Expand naturally.</p>
-    </div>
+    </button>
   );
 }
 
@@ -5473,10 +5481,14 @@ function Heading15() {
 
 function Button1() {
   return (
-    <div className="absolute content-stretch flex h-[60px] items-center justify-center left-[292.03px] px-[42px] py-[30px] rounded-[8px] top-[150px] w-[311.93px]" data-name="Button">
+    <button 
+      onClick={() => window.open('https://calendly.com', '_blank')}
+      className="absolute content-stretch flex h-[60px] items-center justify-center left-[292.03px] px-[42px] py-[30px] rounded-[8px] top-[150px] w-[311.93px] cursor-pointer hover:bg-[#070563] hover:text-white transition-all duration-200 hover:scale-105" 
+      data-name="Button"
+    >
       <div aria-hidden="true" className="absolute border-2 border-[#070563] border-solid inset-0 pointer-events-none rounded-[8px]" />
       <p className="css-ew64yg font-['Poppins:SemiBold',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#070563] text-[16px] text-center tracking-[-0.3125px]">Book a 15 minute walkthrough</p>
-    </div>
+    </button>
   );
 }
 
@@ -6119,11 +6131,11 @@ function ImageTeamCollaboration() {
 
 export default function Frame71() {
   return (
-    <div className="relative w-full min-h-screen overflow-x-hidden overflow-y-hidden" style={{ backgroundImage: "linear-gradient(268.307deg, rgb(47, 213, 191) 2.2671%, rgb(1, 102, 250) 94.289%)" }}>
+    <div className="relative w-full min-h-screen overflow-x-hidden" style={{ backgroundImage: "linear-gradient(268.307deg, rgb(47, 213, 191) 2.2671%, rgb(1, 102, 250) 94.289%)" }}>
       <div className="pt-[72px]"></div>
       
       {/* Full-width hero background image */}
-      <div className="absolute h-[485px] left-0 right-0 top-[71px] w-full" data-name="ezgif-311ef04390fd80e7 1">
+      <div className="absolute h-[485px] left-0 right-0 top-[7px] w-full" data-name="ezgif-311ef04390fd80e7 1">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
           <div className="absolute inset-0 overflow-hidden">
             <img alt="" className="absolute h-[132.49%] left-1/2 -translate-x-1/2 max-w-none top-[-10.78%] w-full min-w-[1440px]" src={imgEzgif311Ef04390Fd80E71} />
@@ -6133,7 +6145,7 @@ export default function Frame71() {
       </div>
       
       {/* Centered content container */}
-      <div className="mx-auto max-w-[1071px] relative" style={{ minHeight: "11072px" }}>
+      <div className="mx-auto w-full px-4 md:px-8 lg:px-16 xl:max-w-[1440px] relative" style={{ minHeight: "11072px" }}>
         <Frame73 />
         <Frame24 />
         <Section />
